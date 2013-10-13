@@ -3,20 +3,21 @@
     "description": "Laravel 4 package.",
     "keywords": ["snow", "snowstorm", "laravel", "laravel 4"],
     "homepage": "https://github.com/pobtastic/snowstorm",
-    "license": "Apache-2.0",
     "authors": [
         {
             "name": "Paul Maddern",
-            "email": "paul@arcadegeek.co.uk"
         }
     ],
     "require": {
         "php": ">=5.3.0",
-        "illuminate/support": "4.0.x",
+        "illuminate/support": "4.0.x"
     },
     "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
         "psr-0": {
-            "ArcadeGeek\\SnowStorm": "src/"
+            "Pobtastic\\Snowstorm": "src/"
         }
     },
     "minimum-stability": "dev"
