@@ -1,4 +1,4 @@
-# Laravel 4 Snowstorm
+# Laravel 3 Snowstorm
 
 Integrates Scott Schillers excellent snowstorm.js effect, see http://www.schillmania.com/projects/snowstorm for details.
 
